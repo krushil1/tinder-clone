@@ -6,7 +6,7 @@ import Cors from 'cors';
 // App Config
 const app = express();
 const port = process.env.PORT || 8000
-const connection_url = 'mongodb+srv://krushil:Krushil123$@cluster0.5psfy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const connection_url = '';
 
 // Middlewares
 app.use(express.json());
